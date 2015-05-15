@@ -1,1 +1,20 @@
 Para criar o schema e as tabelas desse simples teste de conexão basta executar o arquivo createSchema.sql.
+
+select * from editora;
++----+---------+------------------------+
+| id | nome    | email                  |
++----+---------+------------------------+
+|  1 | Oreilly | oreilly@email.com      |
+|  2 | Wrox    | wrox@email.com         |
+|  3 | Apress  | apress@email.com       |
++----+---------+------------------------+
+
+select * from livro;
++----+-----------------------+-------+------------+
+| id | titulo                | preco | editora_id |
++----+-----------------------+-------+------------+
+|  1 | Aprendendo C #        |  89.9 |          1 |
+|  2 | Introdução ao JSF 2   | 122.9 |          3 |
+|  3 | JSF 2 Avançado        | 149.9 |          3 |
++----+-----------------------+-------+------------+
+
